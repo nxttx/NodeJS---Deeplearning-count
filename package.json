@@ -1,0 +1,17 @@
+{
+  "name": "nodejs---deeplearing-count",
+  "version": "1.0.0",
+  "description": "Trains a neural network and predicts the result to a math sum.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Robert Boudewijn",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "@plotex/render-image": "^1.0.21",
+    "@tensorflow/tfjs": "3.14.0",
+    "plot": "^1.0.22"
+  }
+}
